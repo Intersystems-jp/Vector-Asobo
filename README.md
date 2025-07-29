@@ -28,7 +28,7 @@ IRIS Community Edition のダウンロード/インストールは下記をご�
 
 本プロジェクトは **Python 3.x** が必要です。
 
-※ ただし、Pythonの最新バージョン 3.13は利用できません(IRISが未対応/ sentencepeaceとの互換性)
+※ ただし、Pythonの最新バージョン 3.13は利用できません(IRISが未対応/ sentencepieceとの互換性により)
 
 - Windows の方は：
 [こちら](https://www.python.org/downloads/release/python-3127/) の Windows installer (64-bit) からダウンロードしてインストールしてください。
