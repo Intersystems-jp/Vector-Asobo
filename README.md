@@ -1,6 +1,8 @@
 
 ウェビナー『ベクトルであそぼう!』 のソースコードです。
 
+<img src="./VectorAsoboClustering.png" width="70%" alt="データの集まりをみる">
+
 ## 必要環境
 
 - InterSystems IRIS (2024.3 以降, Community Edition / Advanced Server)
