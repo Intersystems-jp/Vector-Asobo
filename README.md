@@ -4,7 +4,11 @@
 ## 必要環境
 
 - InterSystems IRIS (2024.3 以降, Community Edition / Advanced Server)
+
 - Python 3.x（venv 推奨）
+
+※ ただし、Pythonの最新バージョン 3.13は利用できません(IRISが未対応/ sentencepieceとの互換性により)
+
 - Jupyter Notebook
 
 
@@ -24,12 +28,31 @@ IRIS Community Edition のダウンロード/インストールは下記をご�
 
 本プロジェクトは **Python 3.x** が必要です。
 
-- Windows の方は：[Python公式サイト](https://www.python.org/downloads/windows/) からダウンロードしてください。
-- macOS の方は Homebrew を使ってインストールできます：
+※ ただし、Pythonの最新バージョン 3.13は利用できません(IRISが未対応/ sentencepeaceとの互換性)
 
+- Windows の方は：
+[こちら](https://www.python.org/downloads/release/python-3127/) の Windows installer (64-bit) からダウンロードしてインストールしてください。
+
+- macOS の方は Homebrew を使ってPython3.12をインストールできます：
+
+1. Homebrew がインストールされていない場合：
 ```bash
-brew install python
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
+2. Python 3.12 をインストールする
+```bash
+brew install python@3.12
+```
+3. Python 3.12 を有効化（zsh / bash に応じて）
+```bash
+echo 'export PATH="/opt/homebrew/opt/python@3.12/bin:$PATH"' >> ~/.zprofile
+source ~/.zprofile
+```
+4. バージョン確認
+```bash
+python3.12 --version
+```
+ → Python 3.12.x と表示されればOKです
 
 ### venv
 
@@ -81,9 +104,10 @@ source fishenv/bin/activate  # macOS/Linux の場合
 ```bash
 jupyter notebook
 ```
-
-* /notebook/配下のファイルをJupyter Notebook上で開きます
-  * Prep.ipynb, FishNameAsobo.ipynb, VisualizeVector.ipynb を実行して実験を行ってください。
+* 上記コマンドを実行すると、ブラウザでJupyter Notebookが起動します。
+* /notebook/配下のファイルをJupyter NotebookのUI上で開きます
+  * Prep.ipynb, FishNameAsobo.ipynb, VisualizeVector.ipynb を実行して実験を行ってください。  
+  * !pip install ... と記載された部分を実行すると、ライブラリをインストールします。
   * 実験完了後、データやテーブルが不要でしたら CleanUp.ipynbを実行してください。
 
 ## ソースコード
