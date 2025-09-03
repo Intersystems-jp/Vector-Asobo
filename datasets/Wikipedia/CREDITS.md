@@ -100,7 +100,7 @@ This project includes images from Wikimedia Commons, used under various Creative
 
 **イシガキダイ**  
     Image: *石垣鯛_oplegnathus_punctatus.jpg*  
-    © Ishuty, CC BY-SA 4.0 
+    © Ishuty, CC BY-SA 4.0  
     [Source](https://commons.wikimedia.org/w/index.php?curid=44586601)
 
 **カツオ**  
