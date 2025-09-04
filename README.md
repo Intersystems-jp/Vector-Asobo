@@ -1,5 +1,6 @@
-
-ウェビナー『ベクトルであそぼう!』 のソースコードです。
+2025/7/29開催 開発者向けセミナー[『ベクトルであそぼう!』](https://youtu.be/c285zESVmRQ?list=PLzSN_5VbNaxA8mOezO6Vcm126GXw_89oN)のソースコードです。
+[YouTubeリンク](https://youtu.be/c285zESVmRQ?list=PLzSN_5VbNaxA8mOezO6Vcm126GXw_89oN)
+[資料PDF](https://github.com/Intersystems-jp/webinarPDF/blob/main/202507-Vector-Asobo.pdf)
 
 <img src="./VectorAsoboClustering.png" width="70%" alt="データの集まりをみる">
 
@@ -54,7 +55,7 @@ source ~/.zprofile
 ```bash
 python3.12 --version
 ```
- → Python 3.12.x と表示されればOKです
+ → Python 3.12.x と表示されればインストール成功です
 
 ### venv
 
