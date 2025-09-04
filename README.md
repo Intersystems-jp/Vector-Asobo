@@ -108,6 +108,8 @@ source fishenv/bin/activate  # macOS/Linux の場合
 jupyter notebook
 ```
 * 上記コマンドを実行すると、ブラウザでJupyter Notebookが起動します。
+  <img width="1120" height="652" alt="image" src="https://github.com/user-attachments/assets/e2763e96-484c-4adf-8858-a29d679d3fbf" />
+
 * /notebook/配下のファイルをJupyter NotebookのUI上で開きます
   * Prep.ipynb, FishNameAsobo.ipynb, VisualizeVector.ipynb を実行して実験を行ってください。  
   * !pip install ... と記載された部分を実行すると、ライブラリをインストールします。
